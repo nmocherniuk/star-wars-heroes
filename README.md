@@ -13,10 +13,10 @@ A dynamic web application built with ReactJS, designed to allow users to explore
 
 - **Frontend Framework:** ReactJS
 - **Graph Visualization Library:** React Flow
-- **State Management:** (e.g., Redux, Context API)
-- **Styling Framework:** (e.g., Tailwind CSS, CSS Modules)
-- **Data Fetching:** (e.g., Axios, Fetch API)
-- **(Additional libraries or tools as applicable)**
+- **Styling Framework:** CSS Modules
+- **Data Fetching:** (TanStack Query, Fetch API)
+- **Type Checking:** TypeScript
+- **Routing:** React Router DOM
 
 ## Getting Started
 
