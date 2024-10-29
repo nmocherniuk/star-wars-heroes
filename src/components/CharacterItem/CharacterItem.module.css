@@ -1,0 +1,33 @@
+.list-item {
+  list-style: none;
+  border-radius: 20px;
+  margin-right: 20px;
+  position: relative;
+  overflow: hidden;
+  color: #cacaca;
+}
+
+.list-item::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 97%;
+  height: 0.5px;
+  background: #5c5c5c;
+  transform: translateX(-50%);
+}
+
+.list-item:hover {
+  color: #fee123;
+  background-color: #5c5c5c;
+  cursor: pointer;
+}
+
+.character-link {
+  padding: 10px 17px;
+  color: unset;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}

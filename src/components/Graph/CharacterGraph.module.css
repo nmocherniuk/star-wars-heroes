@@ -1,0 +1,8 @@
+.graph-container {
+  height: 400px;
+  width: 100%;
+  max-width: 850px;
+  border: 1px solid #fee12383;
+  border-radius: 30px;
+  overflow: hidden;
+}

@@ -1,0 +1,34 @@
+.page-section {
+  height: calc(100vh - 85px);
+  min-height: 350px;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .page-section {
+    height: calc(100vh - 90px);
+  }
+  .container {
+    padding: 20px 40px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .page-section {
+    height: calc(100vh - 100px);
+  }
+  .container {
+    padding: 40px 80px;
+  }
+}

@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --main-node-border: #ce102c;
+  --main-node-hover: #ff0026;
+  --main-node-box-shadow: rgba(255, 0, 38, 0.4);
+
+  --film-node-border: #3cbfaf;
+  --film-node-hover: #27e2cc;
+  --film-node-box-shadow: rgba(39, 226, 204, 0.4);
+
+  --ship-node-border: #f7ddb0;
+  --ship-node-hover: #edc98a;
+  --ship-node-box-shadow: rgba(237, 201, 138, 0.4);
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./assets/background_image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+code {
+  font-family: "Open Sans", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.dark .react-flow__node {
+  border-radius: 3px;
+  padding: 25px 15px;
+  text-align: center;
+  background-color: #1e1e1e;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  width: 240px;
+  transition:
+    border-color 0.3s,
+    box-shadow 0.3s;
+}
+
+.main-node {
+  border-color: var(--main-node-border);
+  min-height: 508px;
+}
+
+.main-node:hover,
+.main-node:focus {
+  border-color: var(--main-node-hover);
+  box-shadow: 0px 4px 15px var(--main-node-box-shadow);
+}
+
+.film-node {
+  border-color: var(--film-node-border);
+  width: 250px; /* Specific width for film nodes */
+}
+
+.film-node:hover,
+.film-node:focus {
+  border-color: var(--film-node-hover);
+  box-shadow: 0px 4px 15px var(--film-node-box-shadow);
+}
+
+.ship-node {
+  border-color: var(--ship-node-border);
+  width: 240px; /* Specific width for ship nodes */
+}
+
+.ship-node:hover,
+.ship-node:focus {
+  border-color: var(--ship-node-hover);
+  box-shadow: 0px 4px 15px var(--ship-node-box-shadow);
+}
