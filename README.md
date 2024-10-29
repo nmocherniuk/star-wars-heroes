@@ -43,19 +43,19 @@ Ensure you have the following installed:
 **To launch the development server, execute:**
     `npm start`
 
-The application will be accessible at http://localhost:3000.
+*The application will be accessible at http://localhost:3000.*
 
 ## Running Tests
 
 **To execute the test suite, run:**
     `npm test`
 
-Follow the prompts to run specific tests or watch for changes during development.
+*Follow the prompts to run specific tests or watch for changes during development.*
 
 ## Contribution Guidelines
 
 Contributions are welcome! If you have suggestions or enhancements, please feel free to open issues or submit pull requests.
 
-###License
+### License
 
 You can copy and paste this Markdown code into your README file on GitHub, and it will render nicely!
