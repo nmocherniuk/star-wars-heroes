@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# Star Wars Heroes Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A dynamic web application built with ReactJS, designed to allow users to explore an extensive list of Star Wars heroes. Users can access detailed information about each hero’s associated starships and movies. The application leverages React Flow for an interactive visualization of relationships within the Star Wars universe.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Hero List:** Comprehensive overview of Star Wars heroes with essential details.
+- **Detailed View:** In-depth information on each hero’s starships and films.
+- **Interactive Visualization:** Graph-based representation of hero relationships using React Flow.
+- **Responsive Design:** Optimized for a seamless experience across all devices.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Frontend Framework:** ReactJS
+- **Graph Visualization Library:** React Flow
+- **Styling Framework:** CSS Modules
+- **Data Fetching:** (TanStack Query, Fetch API)
+- **Type Checking:** TypeScript
+- **Routing:** React Router DOM
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ensure you have the following installed:
 
-### `npm run build`
+- **Node.js** (version 14 or higher)
+- **npm** (version 6 or higher)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation Steps
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository:**
+   `https://github.com/nmocherniuk/star-wars-heroes.git`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Change to the project directory:**
+    `cd star-wars-heroes`
 
-### `npm run eject`
+3. **Install the required dependencies:**
+    `npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Running the Application
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**To launch the development server, execute:**
+    `npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+*The application will be accessible at http://localhost:3000.*
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Running Tests
 
-## Learn More
+**To execute the test suite, run:**
+    `npm test`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+*Follow the prompts to run specific tests or watch for changes during development.*
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contribution Guidelines
+
+Contributions are welcome! If you have suggestions or enhancements, please feel free to open issues or submit pull requests.
+
+### License
+
+You can copy and paste this Markdown code into your README file on GitHub, and it will render nicely!
