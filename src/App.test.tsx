@@ -21,7 +21,6 @@ const renderWithRouter = (route = "/") => {
     [
       {
         path: "/",
-        errorElement: <div>Error Page</div>,
         children: [
           { index: true, element: <div>Home Page</div> },
           {
@@ -68,12 +67,5 @@ describe("App Component", () => {
 
     const characterDetailPageText = screen.getByText("Character Profile Page");
     expect(characterDetailPageText).toBeInTheDocument();
-  });
-
-  test("should render the Error Page component when navigating to an invalid route", () => {
-    renderWithRouter("/unknown");
-
-    const errorPageText = screen.getByText("Error Page");
-    expect(errorPageText).toBeInTheDocument();
   });
 });

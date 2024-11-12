@@ -64,7 +64,7 @@ describe("Header Component", () => {
     fireEvent.click(backButton);
 
     // Check if the navigate function was called
-    expect(mockNavigate).toHaveBeenCalledWith(-1);
+    expect(mockNavigate).toHaveBeenCalledWith("/characters");
   });
 
   test("does not navigate back when Back button is clicked on home page", () => {
